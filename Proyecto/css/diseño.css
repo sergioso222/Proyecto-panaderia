@@ -298,3 +298,44 @@ h1,h2,h3 {
     vertical-align: middle;
     margin-right: 0.8rem;
 }
+
+
+/* --- Navegación dinámica entre secciones --- */
+.seccion {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.seccion.activa {
+    display: block;
+    opacity: 1;
+}
+
+/* Enlace activo en el menú */
+.navegacion-principal a.activo {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+/* Estilo para la sección de inicio de sesión */
+#sesion form legend {
+    color: var(--primario);
+}
+#sesion p {
+    font-size: 1.8rem;
+}
+
+/* Carrusel y Slider */
+.slider {
+    max-width: 100%;        /* Que no se salga del contenedor */
+    max-height: 200px;      /* Ajusta la altura a tu gusto */
+    overflow: hidden;       /* Oculta exceso de imagen */
+    margin: 0 auto;         /* Centra el slider */
+}
+
+.slider img {
+    width: 100%;            /* Que ocupe todo el ancho del slider */
+    height: 200px;          /* Misma altura que el contenedor */
+    object-fit: cover;      /* Recorta la imagen manteniendo proporción */
+}
