@@ -79,7 +79,7 @@ if (isset($_POST["eliminar"])) {
 <body>
     
     <header>
-        <h1 class="titulo">Panadería <span>Dulce Hogar</span></h1>
+        <h1 class="titulo">Panadería Ronroneos<span></span></h1>
 
     </header>
 
@@ -154,9 +154,9 @@ if (isset($_POST["eliminar"])) {
             <h2>Pan fresco y artesanal todos los días <span>con amor</span></h2>
             <p>Disfruta del mejor pan recién hecho, directo desde nuestro horno a tu mesa.</p>
             <div class="slider">
-            <div><img src="img/panaderia.jpg" alt="Pan recién horneado"></div>
-            <div><img src="img/panaderia2.jpg" alt="Pasteles artesanales"></div>
-            <div><img src="img/dona.jpg" alt="Repostería dulce"></div>
+            <div><img src="img/Carrusel1.jpg" alt="Pan recién horneado"></div>
+            <div><img src="img/Carrusel2.jpg" alt="Pasteles artesanales"></div>
+            <div><img src="img/Carrusel3.jpg" alt="Repostería dulce"></div>
             </div>
 
             <div class="hero">
@@ -344,7 +344,7 @@ if (isset($_POST["eliminar"])) {
 </body>
 
     <footer class="footer">
-        <p>Todos los derechos reservados. Panadería Dulce Hogar © 2025</p>
+        <p>Todos los derechos reservados. Panadería Ronroneos © 2025</p>
     </footer>
 
 </html>

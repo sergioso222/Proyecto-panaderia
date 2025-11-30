@@ -326,6 +326,7 @@ h1,h2,h3 {
     font-size: 1.8rem;
 }
 
+
 /* Carrusel y Slider */
 .slider {
     max-width: 100%;        /* Que no se salga del contenedor */
@@ -336,6 +337,6 @@ h1,h2,h3 {
 
 .slider img {
     width: 100%;            /* Que ocupe todo el ancho del slider */
-    height: 200px;          /* Misma altura que el contenedor */
+    height: 250px;          /* Misma altura que el contenedor */
     object-fit: cover;      /* Recorta la imagen manteniendo proporción */
 }
